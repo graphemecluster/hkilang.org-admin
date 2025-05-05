@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_page_timeline_items",
+  "info": {
+    "displayName": "Timeline Item",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

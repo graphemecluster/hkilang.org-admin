@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "event_highlights_pages",
+  "info": {
+    "singularName": "event-highlights-page",
+    "pluralName": "event-highlights-pages",
+    "displayName": "Event Highlights Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.heading",
+      "required": true
+    },
+    "talks": {
+      "displayName": "Event",
+      "type": "component",
+      "repeatable": true,
+      "component": "event-highlights-page.event",
+      "required": true
+    },
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event-highlights-page.event",
+      "required": true
+    }
+  }
+}

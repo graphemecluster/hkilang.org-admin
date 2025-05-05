@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_event_highlights_page_events",
+  "info": {
+    "displayName": "Event",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.heading",
+      "required": true
+    },
+    "year": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
